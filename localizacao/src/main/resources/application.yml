@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    #mostra a criação dos SQL no console;
+    show-sql: true
+    hibernate:
+      #modo para criação de tabelas, no caso 'none', seria para criar pelo data.sql;
+      ddl-auto: none
+    properties:
+      hibernate:
+        #formata a criação do SQL no console.
+        format_sql: true
