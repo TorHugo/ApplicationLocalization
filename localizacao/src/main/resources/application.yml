@@ -1,7 +1,7 @@
 spring:
   jpa:
     #mostra a criação dos SQL no console;
-    show-sql: true
+    show-sql: false
     hibernate:
       #modo para criação de tabelas, no caso 'none', seria para criar pelo data.sql;
       ddl-auto: none
