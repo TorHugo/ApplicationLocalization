@@ -8,7 +8,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
 @Entity
 @Table(name = "tb_cidade")
 @Data
@@ -20,9 +19,10 @@ public class Cidade {
     @Column(name = "id_cidade")
     private Long id;
 
-    @Column(name = "nm_cidade", length = 50)
+    @Column(name = "nome", length = 50)
     private String nome;
 
     @Column(name = "qtd_habitantes")
     private Long habitantes;
+
 }
